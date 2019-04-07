@@ -8,32 +8,32 @@
 	 background-color: grey; 
 	 background-image: url('raindrop.png');
 	 
-	 -webkit-animation: raindrops 20s linear infinite;
-	 -moz-animation: raindrops 20s linear infinite;
-	 -ms-animation: raindrops 20s linear infinite;
-	 animation: raindrops 20s linear infinite;
+	 -webkit-animation: raindrops 1s linear infinite;
+	 -moz-animation: raindrops 1s linear infinite;
+	 -ms-animation: raindrops 1s linear infinite;
+	 animation: raindrops 1s linear infinite;
 	}
 
 
 	@keyframes raindrops {
 	0% {background-position: 0px 0px;}
-	100% {background-position: 500px 500px;}
+	100% {background-position: 0px -100%;}
 	}
 	 
 	@-moz-keyframes raindrops {
 	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-	100% {background-position: 500px 500px;}
+	100% {background-position: 0px -100%;}
 	}
 	 
 	@-webkit-keyframes raindrops {
 	0% {background-position: 0px 0px;}
 	50% {background-color:#grey;}
-	100% {background-position: 500px 500px; background-color:grey;}
+	100% {background-position: 0px -100%; background-color:grey;}
 	}
 	 
 	@-ms-keyframes raindrops {
 	0% {background-position: 0px 0px;}
-	100% {background-position: 500px 500px;}
+	100% {background-position: 0px -100%;}
 	}
 
 </style>
