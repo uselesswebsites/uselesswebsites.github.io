@@ -28,11 +28,13 @@
 
 </div>
 <script type="text/javascript">
+	var howmanymice = 0;
 	document.getElementById("useless").addEventListener("mouseover", mouseOver);
 	document.getElementById("useless").addEventListener("mouseout", mouseOut);
 
 	function mouseOver() {
 	  document.getElementById("useless").style.color = "white";
+	  howmanymice++;
 	}
 
 	function mouseOut() {
