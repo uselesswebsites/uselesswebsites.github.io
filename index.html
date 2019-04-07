@@ -43,11 +43,11 @@
 	}
 
 	function changetheimage(){
-		if (howmanymice = 3){
+		if (howmanymice > 3){
 			document.getElementById("useless").style.color = "black";
-		} else if (howmanymice = 6){
+		} else if (howmanymice > 6){
 			document.getElementById("useless").style.fontFamily = "serif";
-		} else if (howmanymice = 9){
+		} else if (howmanymice > 9){
 			document.getElementById("useless").innerHTML = "<img id='gotcha' src='https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F2d52e158e484b732a165326cd0ebd379%2Ftenor.gif%3Fitemid%3D10277190&f=1'></img>";
 		}
 	}
