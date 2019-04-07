@@ -22,11 +22,23 @@
 
 <div class="container">
 
-	<p>
+	<p id="useless">
 	<b>Useless Page</b>
 	</p>
 
 </div>
+<script type="text/javascript">
+	document.getElementById("useless").addEventListener("mouseover", mouseOver);
+	document.getElementById("useless").addEventListener("mouseout", mouseOut);
 
+	function mouseOver() {
+	  document.getElementById("useless").style.color = "white";
+	}
+
+	function mouseOut() {
+	  document.getElementById("useless").style.color = "red";
+	}
+
+</script>
 </body>
 </html>
