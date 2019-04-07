@@ -17,11 +17,89 @@
 	 
 	    -webkit-animation: raindrops 2s infinite linear;
 	    -moz-animation: raindrops 2s infinite linear;
+	}
+
+	.raindrops span:nth-child(5n+5) {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+	}
+
+	.raindrops span:nth-child(3n+2) {
+	    -webkit-animation-delay: 1.5s;
+	    -moz-animation-delay: 1.5s;
+	}
+
+	.raindrops span:nth-child(2n+5) {
+	    -webkit-animation-delay: 1.7s;
+	    -moz-animation-delay: 1.7s;
+	}
+
+	@-webkit-keyframes raindrops {
+  0% {
+    opacity: 1;
+
+	-webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    opacity: 1;
+
+	-webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+  }
+  100% {
+    opacity: 0;
+
+	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
 }
 
 </style>
 
-
+<div class="raindrops">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	
+	
+	</div>
 
 
 </html>
